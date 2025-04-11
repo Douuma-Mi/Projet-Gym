@@ -6,8 +6,8 @@ import Login from './pages/Login'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Cards from './pages/Cards'
-import { BrowserRouter, Route, Routes } from 'react-router'
 import SingUp from './pages/SingUp'
+import { Route, Routes } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,7 +16,7 @@ function App() {
     <div>
       <Navbar />
       <Routes>
-        <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/Cards" element={<Cards />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/SingUp" element={<SingUp/>} />

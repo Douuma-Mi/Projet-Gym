@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Navbar.css"
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const currentPath = window.location.pathname;
@@ -10,34 +11,33 @@ function Navbar() {
         <i className="fas fa-dumbbell" /> DOUUMA GYM
       </a>
       <nav className="navbar">
-        <a
-          href="/Home"
-          className={currentPath === '/Home' ? 'active-link' : ''}
+        <Link
+          to="/"
+          className={currentPath === '/' ? 'active-link' : ''}
         >
           Home
-        </a>
-        <a
-          href="/Cards"
+        </Link>
+        <Link
+          to="/Cards"
           className={currentPath === '/Cards' ? 'active-link' : ''}
         >
           Activités
-        </a>
-        <a
-          href="/Login"
+        </Link>
+        <Link
+          to="/Login"
           className={currentPath === '/Login' ? 'active-link' : ''}
         >
           Login
-        </a>
-        <a
-          href="/SingUp"
+        </Link>
+        <Link
+          to="/SingUp"
           className={currentPath === '/SingUp' ? 'btn active-link' : ''}
         >
           Sign Up
-        </a>
+        </Link>
       </nav>
     </div>
   </div>
-
 
   )
 }
