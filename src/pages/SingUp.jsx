@@ -2,6 +2,7 @@ import React from 'react'
 import "../components/SingUp.css"
 function SingUp() {
   return (
+    <>
 <div className="cardd">
   <div className="card22">
     <form className="formm">
@@ -34,7 +35,8 @@ function SingUp() {
     </form>
   </div>
 </div>
-
+<a className="btn" href="/">Roteur</a>
+</>
   )
 }
 

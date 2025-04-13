@@ -4,6 +4,7 @@ import login from "../assets/imageee.jpeg"
 
 function Login() {
   return (
+    <>
 <div className="cardd">
   <div className="card22">
     <form className="formm">
@@ -26,6 +27,9 @@ function Login() {
     </form>
   </div>
 </div>
+<a className="btn" href="/SingUp">Sing Up</a>
+
+</>
 
   
 
