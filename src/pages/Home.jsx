@@ -1,7 +1,7 @@
 import React from 'react'
 import photo from "../assets/pexels-photo-1229356.webp"
 import "../components/Home.css"
-import { Link } from 'react-router'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
