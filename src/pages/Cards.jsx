@@ -8,6 +8,7 @@ import logo from "../assets/pngtree-physical-fitness-sport-gym-logo-bodybuilder-
 import logo2 from "../assets/pngtree-physical-fitness-sport-gym-logo-bodybuilder-with-big-muscles-posing-isolated-png-image_1924975.jpg"
 import logo3 from "../assets/pngtree-physical-fitness-sport-gym-logo-bodybuilder-with-big-muscles-posing-isolated-png-image_1924975.jpg"
 import logo4 from "../assets/pngtree-physical-fitness-sport-gym-logo-bodybuilder-with-big-muscles-posing-isolated-png-image_1924975.jpg"
+import { Link } from 'react-router-dom'
 const Cards = () => {
     return (
         <div className="cards-container">
@@ -141,7 +142,7 @@ const Cards = () => {
                     </div>
                 </div>
             </div>
-            <a className="btn" href="/Login">Login</a>
+            <Link className="btn" href="/Login">Login</Link>
         </div>
     );
 };

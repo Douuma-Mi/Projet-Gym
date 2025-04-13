@@ -189,3 +189,15 @@
     }
   }
 
+
+@media (max-width: 770px) {
+    .display {
+    display: flex
+;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    justify-content: center;
+transition: 0.4s ease-in-out;
+  }
+}

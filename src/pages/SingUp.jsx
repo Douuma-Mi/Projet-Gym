@@ -1,5 +1,6 @@
 import React from 'react'
 import "../components/SingUp.css"
+import { Link } from 'react-router-dom'
 function SingUp() {
   return (
     <>
@@ -35,7 +36,7 @@ function SingUp() {
     </form>
   </div>
 </div>
-<a className="btn" href="/">Roteur</a>
+<Link className="btn" href="/">Roteur</Link>
 </>
   )
 }

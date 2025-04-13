@@ -1,6 +1,7 @@
 import React from 'react'
 import "../components/Login.css"
 import login from "../assets/imageee.jpeg"
+import { Link } from 'react-router-dom'
 
 function Login() {
   return (
@@ -27,7 +28,7 @@ function Login() {
     </form>
   </div>
 </div>
-<a className="btn" href="/SingUp">Sing Up</a>
+<Link className="btn" href="/SingUp">Sing Up</Link>
 
 </>
 
