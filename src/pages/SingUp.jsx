@@ -36,6 +36,8 @@ function SingUp() {
     </form>
   </div>
 </div>
+            <Link className="btn" to="/">Roteur</Link>
+
 <Link className="btn" href="/">Roteur</Link>
 </>
   )

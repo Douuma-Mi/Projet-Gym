@@ -142,7 +142,7 @@ const Cards = () => {
                     </div>
                 </div>
             </div>
-            <Link className="btn" href="/Login">Login</Link>
+            <Link className="btn" to="/login">Login</Link>
         </div>
     );
 };

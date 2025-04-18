@@ -28,7 +28,8 @@ function Login() {
     </form>
   </div>
 </div>
-<Link className="btn" href="/SingUp">Sing Up</Link>
+            <Link className="btn" to="/Cards">Sing Up</Link>
+
 
 </>
 

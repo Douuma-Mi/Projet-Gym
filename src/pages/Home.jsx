@@ -13,7 +13,7 @@ function Home() {
         <p>Enjoy the Difference with California Gym, l'enseigne de club de fitness
 de plus de 20 ans d'expérience en Tunisie et actuellement
 présente aussi en Algérie.</p>
-      <Link className="btn" href="/Cards">Get started</Link>
+            <Link className="btn" to="/Cards">Get started</Link>
       </div>
       <div className="home-image">
         <img src={photo} alt />
