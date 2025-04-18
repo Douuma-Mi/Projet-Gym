@@ -26,9 +26,6 @@ function SingUp() {
       </div>
 
       <div className="btnn">
-        <button className="button11" type="submit">
-          &nbsp;&nbsp;&nbsp;&nbsp;Sign Up&nbsp;&nbsp;&nbsp;&nbsp;
-        </button>
         <button className="button22" type="button" >
           Login
         </button>
